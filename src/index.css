@@ -3,18 +3,19 @@
 body {
   font-family: 'Nunito', sans-serif;
   font-size: 1.5rem;
-  background-color: #64748B;
-  color: #18181B;
+  background-color: #64748b;
+  color: #18181b;
 }
 
-input[type="text"], button {
+input[type='text'],
+button {
   font: inherit;
 }
 
 main {
   margin: auto;
   max-width: 600px;
-  background-color: #F8FAFC;
+  background-color: #f8fafc;
   padding: 1rem 2rem;
   border-radius: 15px;
   box-shadow: 2px 2px 5px #333;
@@ -24,13 +25,14 @@ h1 {
   margin: 0.5rem 0;
 }
 
-form, article {
+form,
+article {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #F8FAFC;
-  border: 1px solid #18181B;
+  background-color: #f8fafc;
+  border: 1px solid #18181b;
 }
 
 .todo {
@@ -39,7 +41,7 @@ form, article {
   align-items: center;
 }
 
-input[type="checkbox"] {
+input[type='checkbox'] {
   min-width: 30px;
   min-height: 30px;
   margin-right: 1rem;
@@ -48,18 +50,19 @@ input[type="checkbox"] {
 button {
   min-width: 50px;
   min-height: 50px;
-  border: 1px solid #18181B;
+  border: 1px solid #18181b;
   border-radius: 10%;
   cursor: pointer;
 }
 
 .trash {
-  background-color: #F8FAFC;
-  color: #EF4444;
+  background-color: #f8fafc;
+  color: #ef4444;
 }
 
-.trash:focus, .trash:hover {
-  filter:brightness(120%)
+.trash:focus,
+.trash:hover {
+  filter: brightness(120%);
 }
 
 form {
@@ -67,7 +70,7 @@ form {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #18181B;
+  border: 1px solid #18181b;
   margin-bottom: 1rem;
 }
 
@@ -81,19 +84,20 @@ form label {
   padding-right: 30px;
 }
 
-input[type="text"] {
+input[type='text'] {
   width: 100%;
   padding: 0.5rem;
   border-radius: 10px;
-  border: 0.5px solid #18181B;
+  border: 0.5px solid #18181b;
 }
 
 .submit {
-  background-color: #F8FAFC;
+  background-color: #f8fafc;
   color: gray;
 }
 
-.submit:focus, .submit:hover {
+.submit:focus,
+.submit:hover {
   background-color: limegreen;
-  color: #F8FAFC;
+  color: #f8fafc;
 }
